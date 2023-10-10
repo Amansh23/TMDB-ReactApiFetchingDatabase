@@ -1,0 +1,559 @@
+.blockofpopularcomp::-webkit-scrollbar{
+    display: none;
+}
+
+.blockoflatestmovies::-webkit-scrollbar{
+    display: none;
+}
+
+
+.blockoftrendingcomp::-webkit-scrollbar{
+    display: none;
+}
+
+
+.navbar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#032541;
+    padding: 1vmax 4vmax !important;
+}
+
+.nav1{
+    display:flex;
+    align-items:center
+}
+
+.nav1navlinktmdb{
+      text-decoration :none;
+      font-family :gilroy ExtraBold;
+      font-size:35px;
+      display:flex;
+      color: #18B7D9
+}
+
+
+.block{
+    padding:0vmax 2vmax;
+    margin-left:20px;
+    height:2vmax;
+    border-radius:20px;
+    background-color:#18B7D9;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+
+.nav1navlinklatestmovie{
+    text-decoration :none;
+      font-family :gilroy Medium;
+      font-size:20px;
+      margin-left:40px;
+      display:flex;
+      color: white;
+}
+
+
+
+.nav1navlinkpopularmovie{
+    text-decoration :none;
+      font-family :gilroy Medium;
+      font-size:20px;
+      margin-left:40px;
+      display:flex;
+      color: white;
+}
+
+.nav2{
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+.nav2eyeicon{
+    text-decoration :none;
+    font-family :gilroy Medium;
+    font-size:20px;
+    display:flex;
+    color:white
+}
+
+
+
+.nav2jointmdbstyle{
+    text-decoration :none;
+    font-family :gilroy Medium;
+    font-size:20px;
+    margin-left:40px;
+    display:flex;
+    color:white
+}
+
+
+
+
+/* ............... Ajax component style */
+
+
+.ajaxcompstyle{
+    padding:3.3vmax;
+    background-color:#0279AD;
+}
+
+
+.ajaxcompwelcomestyle{
+    font-size:50px;
+    font-family:gilroy SemiBold;
+    color:white
+}
+
+.ajaxcompparastyle{
+    font-family:gilroy SemiBold;
+    font-size:25px;
+    color:white;
+}
+
+
+/* ...........  Popular component */
+.popularcompstyle{
+    background-color:white;
+    padding:2vmax 4vmax;
+}
+
+.popularcomph1style{
+    font-family:gilroy SemiBold;
+    font-size:2vmax;
+    color:#0279AD;
+}
+
+.blockofpopularcomp{
+    width:100vmax;
+    display:flex;
+    overflow-x:auto;
+}
+
+
+.imageliststyleofpopularcomp{
+    width:20vmax;
+    margin-right:20px;
+    margin-top:40px;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.imagelistimagestyleofpopularcomp{
+    width:100%;
+    height:90%;
+    object-fit:cover;
+}
+
+.imagelistimagecontentstyleofpopularcomp{
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+    align-items:center;
+    color:Black;
+    font-family: gilroy SemiBold;
+    margin-bottom: none;
+}
+
+
+/* ..............latestmovies style */
+
+.latestcompstyle{
+    padding:2vmax 4vmax;
+    width:100vmax;
+    background-image:url("https://images.unsplash.com/photo-1676553138763-6f83fac7094d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+    background-position:center;
+    background-size:cover;
+}
+
+
+.latestcomph1style{
+    font-size:35px;
+    font-family:gilroy SemiBold;
+    color:white;
+}
+
+.blockoflatestmovies{
+    display:flex;
+    align-items:center;
+    width:95vmax;
+    overflow-x:auto
+}
+
+.imageliststyleoflatestcomp{
+    width:20vmax;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.imagelistimagestyleoflatestcomp{
+    width:100%;
+    height:90%;
+    object-fit:cover;
+}
+
+
+.imagelistimagecontentstyleoflatestcomp{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    padding: 10px;
+    font-size:20px;
+    font-family:gilroy SemiBold;
+}
+
+
+/* ................... trending movie style */
+
+
+.trendingcompstyle{
+    width:100vmax;
+    padding:2vmax 4vmax;
+
+}
+
+.trendingcomph1style{
+    font-size:35px;
+    font-family:gilroy SemiBold;
+    color:#0279AD;
+    /* margin-top:20px;
+    margin-left:35px; */
+}
+
+.blockoftrendingcomp{
+    display:flex;
+    align-items:center;
+    width:95vmax;
+    overflow-x:auto;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.imageliststyleoftrendingcomp{
+    width:20vmax;
+    margin-right: 20px;
+    box-Shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.imagelistimagestyleoftrendingcomp{
+    width:100%;
+    height:90%;
+    object-fit: cover;
+}
+
+.imagelistimagecontentstyleoftrendingcomp{
+    display:flex;
+    justify-content:center;
+    align-Items:center;
+    color:black;
+    padding: 10px;
+    font-size: 16px;
+    width:100%;
+    font-family: gilroy SemiBold;
+}
+
+
+/* ................. Footer style */
+
+
+.footercompstyle{
+    padding:2vmax 4vmax;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#032541;
+}
+
+.footersection1{
+    padding:1vmax;
+}
+
+.footersizemedium{
+    font-size:25px;
+    color:white;
+    font-family:gilroy ExtraBold;
+}
+
+.footersizesmall{
+    font-size:20px;
+    color:white;
+    font-family:gilroy;
+}
+
+
+.footersection2{
+    padding:1vmax;
+    margin-left: 20px;
+}
+
+
+
+
+/* ................latestpage style */
+
+
+.latestpagecompstyle{
+    padding:3vmax 4vmax;
+}
+
+
+.latestpagecomph1style{
+    font-size:35px;
+    margin-left: 20px;
+    font-family:gilroy SemiBold;
+    color:#0279AD;
+
+}
+
+.blockoflatestpagestyle{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.imageliststyleoflatestpagecomp{
+    width:20vmax;
+    margin-right:25px;
+    margin-top:40px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.imagelistimagestyleoflatestpagecomp{
+    width:100%;
+    object-fit:cover
+}
+
+.imagelistimagecontentstyleoflatestpagecomp{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 5px 10px;
+    color:Black;
+
+}
+
+
+
+/* ..................popularpage style */
+
+
+.popularpagecompstyle{
+    padding:3vmax 4vmax;
+}
+
+.popularpagecomph1style{
+    font-size:35px;
+    font-family:gilroy SemiBold;
+    color:#0279AD;
+    margin-left: 22px;
+}
+
+
+.blockofpopularpagestyle{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.imageliststyleofpopularpagecomp{
+    width:20vmax;
+    margin-top:40px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.imagelistimagestyleofpopularpagecomp{
+    width:100%;
+    height:90%;
+    object-fit:cover;
+}
+
+.imagelistimagecontentstyleofpopularpagecomp{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:Black;
+    padding: 10px;
+}
+
+
+/* ..........................MovieDetails styel */
+.moviedetailstyle{
+    width:100vmax;
+    padding:3.5vmax;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+ 
+
+}
+
+.moviedetailsimagestyle{
+    background-Size:cover;
+    background-position: center;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    overflow:hidden;
+}
+.moviedetailsimagestyleimg{
+    width: 70%;
+    object-fit: cover;
+}
+
+.moviedetailcontentstyle{
+    display:flex;
+    flex-direction:column;
+
+}
+
+.moviedetailcontenth1style{
+    font-size:30px;
+    font-family:gilroy SemiBold;
+    color:#032541
+}
+
+.moviedetailcontenth3style{
+    font-size:20px;
+    font-family:gilroy SemiBold;
+    color:rgb(106, 103, 103)
+}
+
+.moviedetailcontentpstyle{
+    font-size:10px;
+    font-family:gilroy SemiBold;
+    color:#032541
+}
+
+
+.moviedetailcontentbottomstyle{
+    font-size:15px;
+    font-family:gilroy SemiBold;
+    color:black;
+}
+/* .......................responsive style @media */
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    
+    .navbar{
+        
+        padding: 10px !important; 
+        display: flex;
+        justify-content: center !important;
+    }
+    .nav1{
+        padding: 0px !important;
+    }
+    .nav1navlinktmdb{
+     font-size: 14px;   
+    }
+    .nav2{
+        display: none;
+    }
+    .block{
+        display: none;
+    }
+    .nav1navlinklatestmovie {
+        margin-left: 46px;
+        font-size: 13px;
+    }
+    .nav1navlinkpopularmovie{
+        margin-left: 13px;
+        font-size: 13px;
+    }
+    .ajaxcompwelcomestyle{
+        font-size: 16px;
+    }
+    .ajaxcompparastyle{
+        font-size: 9px;
+    }
+    .popularcompstyle{
+        padding: 4vmax 3vmax;
+    }
+   
+    .imagelistimagecontentstyleofpopularcomp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 8px;
+        height: 5vmax;
+    }
+    .latestcompstyle{
+        height: 45vmax;
+
+    }
+    .latestcomph1style{
+        font-size: 16px;
+    }
+    .imagelistimagecontentstyleoflatestcomp{
+        font-size: 8px;
+        height: 5vmax;
+    }
+    .trendingcomph1style{
+        font-size: 16px;
+    }
+    .footercompstyle{
+        height: 45vmax;
+
+    }
+    .imagelistimagecontentstyleoftrendingcomp{
+        height: 5vmax;
+        font-size: 8px;
+    }
+    .footersizemedium{
+        font-size: 16px;
+    }
+    .footersizesmall{
+        font-size: 7px;
+    }
+    .footercompstyle{
+       
+    }
+    .latestpagecomph1style{
+        font-size: 23px;
+        margin-top: 35px;
+        margin-left: -5px;
+    }
+
+    .imagelistimagecontentstyleoflatestpagecomp{
+        font-size: 8px;
+    }
+    .popularpagecomph1style{
+        font-size: 23px;
+        margin-top: 35px;
+    }
+
+    .imagelistimagecontentstyleofpopularpagecomp{
+        font-size: 8px;
+    }
+    .moviedetailstyle{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:20px;
+    }
+    .moviedetailcontentstyle{
+        padding: 40px 30px;
+    }
+
+    
+}
+
